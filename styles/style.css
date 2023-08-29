@@ -1,9 +1,20 @@
 body{
     background-color:#fff;
-    color:#00f;
+    color:rgb(177, 132, 48);
     font-family:"Raleway", Helvetica, sans-serif;
     margin:0;
  
+  }
+  p{
+    text-align: center;
+  }
+  ul{
+    text-align: left;
+    list-style:none;
+
+  }
+  #choose-us>ul>li::before {
+    content: '😁 ';
   }
   #main-header{
     background-image: url("../assets/logo_social.jpg");
@@ -28,6 +39,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center; 
+    background-color: rgb(56, 128, 106);
 
   }
   #logo{
@@ -77,4 +89,54 @@ body{
   }
   a{
     text-decoration: none;
+  }
+
+  #contact-info{
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+    margin-bottom: 10%;
+  }
+  #map{
+    margin-top: 10%;
+    margin-left: 20%;
+    
+
+  }
+  #con{
+    margin-top: 10%;
+    margin-right: 20%;
+    font-size: large;
+    
+  }
+  #social{
+    display: grid;
+    place-items: center;
+    
+
+  }
+  @media only screen and (max-width: 1080px) {
+
+    #contact-info{
+     display:block;
+    }
+    #map{
+      margin-top: 0%;
+      margin-left: 0%;
+      
+  
+    }
+    #map-iframe{
+      width: 100%;
+    }
+    #con{
+      margin-top: 0%;
+      margin-right: 0%;
+      
+      
+    }
+    #social-iframe{
+      width: 267px;
+      height: 476px;
+    }
   }
