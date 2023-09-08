@@ -17,15 +17,15 @@ body{
     content: '😁 ';
   }
   #main-header{
-    background-image: url("../assets/logo_social.jpg");
+    background-image: url("../assets/logo_social_2.jpg");
     /* Set a specific height */
     min-height: 500px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 
   }
   header {
@@ -162,7 +162,6 @@ body{
       
     }
     #social-iframe{
-      width: 267px;
-      height: 476px;
+      width: 100%;
     }
   }
