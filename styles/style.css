@@ -130,6 +130,10 @@ body{
     
 
   }
+  #presentation{
+    display: grid;
+    place-items: center;
+  }
   blockquote{
     color: black;
   }
@@ -162,6 +166,9 @@ body{
       
     }
     #social-iframe{
+      width: 100%;
+    }
+    #presentation-iframe{
       width: 100%;
     }
   }
